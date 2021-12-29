@@ -1,0 +1,15 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.site-header.inicio{
+    background-image: url('../img/header.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+}
