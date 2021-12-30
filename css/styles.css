@@ -11,6 +11,7 @@ html{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
 }
 
 
@@ -36,6 +37,24 @@ h4{
     font-size: 2.6rem;
 }
 
+p{
+    font-size: 1.6rem;
+}
+
+/** Utilidades **/
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
 /* Header */
 .site-header.inicio{
     background-image: url('../img/header.jpg');
@@ -57,7 +76,7 @@ h4{
     color: #fff;
     padding-bottom: 2rem;
     max-width: 70rem;
-    line-height: 4.5rem;
+    line-height: 2;
 }
 
 .barra{
@@ -77,5 +96,25 @@ h4{
 
 .navegacion a:hover{
     color: #71b100;
+}
+
+/** Iconos nosotros **/
+
+.icono-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+.icono h3{
+    text-transform: uppercase;
+}
+
+.encabezado-nosotros {
+    margin-bottom: 2rem;
 }
 
