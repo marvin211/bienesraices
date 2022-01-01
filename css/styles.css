@@ -182,4 +182,23 @@ img {
     justify-content: flex-end;
 }
 
+/* Contacto Home */
+.imagen-contacto{
+    background-image: url('../img/encuentra.jpg');
+    height: 40rem;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto{
+    flex: 1;
+    color: #fff;
+}
+
+.contenido-contacto p{
+    font-size: 2rem;
+}
+
 
