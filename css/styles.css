@@ -73,6 +73,7 @@ img {
     display: inline-block;
     margin-top: 3rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .boton-amarillo {
@@ -175,6 +176,20 @@ img {
 .precio{
     color: #71b100;
     font-weight: 700;
+}
+
+.icono-caracteristicas{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.icono-caracteristicas li{
+    display: flex;
+}
+
+.icono-caracteristicas p, img{
+    margin-right: 2rem;
 }
 
 .ver-todas{
