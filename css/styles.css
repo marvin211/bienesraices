@@ -182,6 +182,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    padding: 1rem 0 0;
 }
 
 .icono-caracteristicas li{
@@ -215,5 +216,99 @@ img {
 .contenido-contacto p{
     font-size: 2rem;
 }
+
+/* Seccion Inferior */
+
+.seccion-inferior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog{
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales{
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog:last-of-type{
+    margin-bottom: 0; /*El ultimo articulo que no tenga un margin-bottom*/
+}
+
+.entrada-blog .imagen{
+    flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+}
+
+.texto-entrada a{
+    color: #000;
+    text-decoration: none;
+}
+
+.texto-entrada h4{
+    margin: 0;
+    line-height: 1.2;
+}
+
+.texto-entrada h4::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: #71b100;
+    margin-top: 1rem;
+}
+
+.texto-entrada span{
+    color: #e08709;
+}
+
+/* Testimoniales */
+.testimonial{
+    background-color: #71b100;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: #fff;
+    border-radius: 2rem;
+}
+
+.testimonial p{
+    text-align: right;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.testimonial blockquote{
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 300;
+}
+
+.testimonial blockquote::before{
+    content: '';
+    background-image: url('../img/comilla.svg');
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: -1rem;
+
+}
+
+
+
+
+
+
+
 
 
