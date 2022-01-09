@@ -14,7 +14,6 @@ body{
     line-height: 2;
 }
 
-
 /* Globales */
 .contenedor{
     max-width: 120rem; /** = 1200px; **/
@@ -61,6 +60,10 @@ img {
 
 .d-block{
     display: block!important;
+}
+
+.contenido-centrado{
+    max-width: 80rem;
 }
 
 /* Botones */
@@ -156,12 +159,14 @@ img {
 .contenedor-anuncios {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .anuncio{
-    flex-basis: calc(33.3% - 1rem);
+    flex: 0 0 calc(33.3% - 1rem);
     border: 1px solid #b5b5b5;
     background-color: #f5f5f5;
+    margin-bottom: 2rem;
 }
 
 .contenido-anuncio{
@@ -188,6 +193,8 @@ img {
     justify-content: space-evenly;
     list-style: none;
     padding: 1rem 0 0;
+    flex: 1;
+    max-width: 50rem;
 }
 
 .icono-caracteristicas li{
@@ -326,6 +333,7 @@ img {
 }
 
 /** INTERNAS **/
+/* Nosotros */
 .contenido-nosotros{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -336,9 +344,18 @@ img {
     font-weight: 900;
     font-size: 2rem;
     margin: 0;
-    padding: 1rem 0 3rem 0;
-    
+    padding: 1rem 0 3rem 0;    
 }
+
+/* Anuncio */
+.resumen-propiedad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;  
+}
+
+
 
 
 
